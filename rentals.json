@@ -16,5 +16,16 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+"posts": [{
+    "user": "Izzy",
+    "date": "March 25, 2016",
+    "title": "Beep Boop",
+    "body": "beepboopbeepboopbeepboopbeepboopbeepboopbeepboopbeepboopbeepboopbeepboopbeepboop"
+  }, {
+    "user": "Other Izzy",
+    "date": "March 26, 2016",
+    "title": "Stuff and Things",
+    "body": "all these stuff and thiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiings"
   }]
 }

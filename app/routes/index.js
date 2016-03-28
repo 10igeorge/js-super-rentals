@@ -1,3 +1,4 @@
+
 import Ember from 'ember';
 
 export default Ember.Route.extend({
@@ -6,12 +7,13 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    save3(params){
+    save3(params) {
       var newRental = this.store.createRecord('rental', params);
       newRental.save();
       this.transitionTo('index');
     },
-    destroyRental(rental){
+
+    destroyRental(rental) {
       rental.destroyRecord();
       this.transitionTo('index');
     }
