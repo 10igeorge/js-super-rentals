@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         body: this.get('body')
       };
-      this.set('newBlogPost', false).
+      this.set('newBlogPost', false),
       this.sendAction('submit', blogParams);
     }
   }

@@ -1,8 +1,12 @@
 <h1>Super Rentals Blog</h1>
 <p>Check here for announcements, sales, and other news!</p>
-<br>
-<ul>
-  <li>Posts Here</li>
-</ul>
 
-{{new-entry}}
+  {{#each model as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
+
+{{new-entry submit="submit"}}
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Contact Us{{/link-to}}
+{{#link-to 'index'}}Home{{/link-to}}
