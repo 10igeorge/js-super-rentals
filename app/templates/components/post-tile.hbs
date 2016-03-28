@@ -1,3 +1,5 @@
 <h4>{{post.title}}</h4>
 <p>Submitted by {{post.user}} on {{post.date}}</p>
-<p>{{post.body}}</p> 
+<p>{{post.body}}</p>
+<button {{action 'deleteEntry' post}}>Delete Entry</button>
+<hr>

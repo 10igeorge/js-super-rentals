@@ -10,6 +10,10 @@ export default Ember.Route.extend({
       var newEntry = this.store.createRecord('post', blogParams);
       newEntry.save();
       this.transitionTo('news');
+    },
+    destroyEntry(post){
+      post.destroyRecord();
+      this.transitionTo('news');
     }
   }
 });
